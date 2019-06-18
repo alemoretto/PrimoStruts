@@ -8,5 +8,11 @@
 </head>
 <body>
 
+<p>Marca = ${AutomobileForm.marca}</p>
+
+<p>Modello = ${AutomobileForm.modello}</p>
+
+<p>Cilindrata = ${AutomobileForm.cilindrata}</p>
+
 </body>
 </html>

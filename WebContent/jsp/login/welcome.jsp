@@ -9,7 +9,18 @@
 <body>
 	benvenuto ${utenteInfo.login }
 	<form action="${pageContext.request.contextPath }/preparaInserisciAutomobile.do">
-		<input type="submit" name="codop" value="aggiungi">
+	<div>
+	<input type="text" name="marca"><button type="submit" name="codop" value="aggiungi">Aggiungi Marca</button>
+	</div>
+	<div>
+	<input type="text" name="modello"><button type="submit" name="codop" value="aggiungiModello">Aggiungi Modello</button>
+	</div>
+	<div>
+	<input type="text" name="cilindrata"><button type="submit" name="codop" value="aggiungiCilindrata">Aggiungi Cilindrata</button>
+	</div>
+	
+<!-- 		<input type="submit" name="codop" value="aggiungi"> -->
+		<button type="submit" name="codop" value="aggiungi">AGGIUNGI</button>
 	</form>
 	Attributo spedito in request: ${attributoImpostabileComeSempre }
 
